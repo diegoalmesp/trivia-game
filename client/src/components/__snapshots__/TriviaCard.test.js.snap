@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<TriviaCard /> component rendering renders correctly 1`] = `
+<div
+  className="trivia-page"
+>
+  <h3>
+    category
+  </h3>
+  <div>
+    <div
+      className="trivia-question-container"
+    >
+      <p>
+        question
+      </p>
+    </div>
+  </div>
+  <div
+    className="trivia-button-container"
+  >
+    <button
+      className="btn btn-info btn-lg text-uppercase"
+      onClick={[Function]}
+      type="button"
+    >
+      False
+    </button>
+    <button
+      className="btn btn-info btn-lg text-uppercase"
+      onClick={[Function]}
+      type="button"
+    >
+      True
+    </button>
+  </div>
+</div>
+`;

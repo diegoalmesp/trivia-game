@@ -1,0 +1,36 @@
+{
+  "name": "react-seed",
+  "version": "0.1.0",
+  "description": "React Seed project with server for endpoints, redux and router",
+  "author": {
+    "name": "Diego Almirón",
+    "email": "diegoalmesp@gmail.com",
+    "url": "http://example.com"
+  },
+  "license": "MIT",
+  "scripts": {
+    "client": "cd client && yarn start",
+    "server": "nodemon index.js --exec babel-node",
+    "start": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.2",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.1.0",
+    "@babel/core": "^7.1.0",
+    "@babel/node": "^7.0.0",
+    "@babel/preset-env": "^7.1.0",
+    "concurrently": "^3.5.1"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "create-react-app",
+    "redux"
+  ]
+}
